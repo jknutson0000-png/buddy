@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Job Buddy</title>
+    <meta name="theme-color" content="#d11224" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Job Buddy" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="icon" href="data:," />
+    <link rel="apple-touch-icon" href="./assets/icon-180.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <img
+        class="header-photo"
+        src="./assets/workbench.jpg"
+        alt="Outdoor workbench with tools ready for repair work"
+      />
+      <div class="header-cover" aria-hidden="true"></div>
+      <div class="header-copy">
+        <p class="eyebrow">Job Buddy</p>
+        <h1>Keep today's work moving.</h1>
+        <p>Big timers, job-site alerts, and leave checks for handyman work.</p>
+        <div class="header-actions" aria-label="Reminder controls">
+          <button class="button primary" id="enableReminders" type="button">Turn on reminders</button>
+          <button class="button light" id="testSound" type="button">Test sound</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="mobile-install" id="mobileInstall" aria-live="polite">
+      <div>
+        <p class="eyebrow">Phone mode</p>
+        <strong>Install this on your phone.</strong>
+        <span id="installHelp">Android: tap Install app. iPhone: tap Share, then Add to Home Screen.</span>
+      </div>
+      <button class="button primary" id="installApp" type="button">Install app</button>
+    </section>
+
+    <main class="workspace">
+      <section class="job-rail" aria-labelledby="jobListHeading">
+        <div class="section-title">
+          <p class="eyebrow">Jobs</p>
+          <h2 id="jobListHeading">Pick the job you are doing now.</h2>
+        </div>
+
+        <details class="new-job-shell" id="newJobShell">
+          <summary>Add a new job</summary>
+          <form class="new-job" id="jobForm">
+            <label>
+              Job name
+              <input id="jobName" name="jobName" autocomplete="off" placeholder="Patch drywall" required />
+            </label>
+            <label>
+              Customer
+              <input id="jobCustomer" name="jobCustomer" autocomplete="off" placeholder="Customer name" />
+            </label>
+            <label>
+              Address
+              <input id="jobAddress" name="jobAddress" autocomplete="off" placeholder="Job site address" />
+            </label>
+            <button class="button primary full" type="submit">Add job</button>
+          </form>
+        </details>
+
+        <div class="job-list" id="jobList" aria-live="polite"></div>
+      </section>
+
+      <section class="focus-panel" aria-label="Selected job">
+        <div id="activeJobView" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <div class="alarm-overlay hidden" id="alarmOverlay" role="dialog" aria-modal="true" aria-live="assertive"></div>
+    <div class="checklist-modal hidden" id="checklistModal" role="dialog" aria-modal="true" aria-live="polite"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

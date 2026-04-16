@@ -1,0 +1,11 @@
+Open this folder in Claude Code:
+
+C:\Users\jeffr\Desktop\comingle\adhd-handyman-task-app
+
+This is Job Buddy, a mobile-first handyman task app for users with ADHD.
+
+Please read CLAUDE_CODE_HANDOFF.md first.
+
+Goal: continue improving the mobile app. Focus on making the phone experience simple, clean, and useful for real handyman work.
+
+Important: I am not a coder. Explain everything simply and do the work directly whenever possible.
