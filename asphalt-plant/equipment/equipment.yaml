@@ -1,0 +1,21 @@
+# Motor & drive equipment list.
+# One entry per motor / drive. Fields left blank or set to TBD will
+# show up in unknowns.md until they're filled in. `verified: true` only
+# after a nameplate photo has been read.
+#
+# Field reference:
+#   tag               # plant tag (e.g. M-DRYER, M-SLAT-CONV)
+#   description       # what it drives
+#   location_room     # room name if indoors
+#   location_zone     # outdoor zone (drum yard, AC tank farm, etc.)
+#   type              # motor | drive | motor+drive
+#   mfr / model
+#   hp / fla / voltage / phase / rpm / sf / code_letter / frame
+#   drive_type        # ATL | soft start | VFD | none
+#   drive_tag         # tag of the VFD/soft start, if any
+#   source_panel      # panel name that feeds it
+#   source_breaker    # position(s) in that panel
+#   status            # in_service | out | removed | staying | planned
+#   verified          # true once nameplate confirmed
+#   notes
+items: []

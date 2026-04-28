@@ -1,0 +1,9 @@
+# Inside layout — office, lab, break room, soap pump room, etc.
+# Rooms can be `shape: rect` (x/y/w/h) or `shape: poly` (points list).
+# Items are placed by x,y on the canvas and reference equipment / panel
+# tags so the legend stays synced with equipment.yaml + panels/.
+name: "Inside layout"
+canvas: { width: 1400, height: 900, units: "px" }
+background_image: null
+rooms: []
+items: []

@@ -1,0 +1,14 @@
+# Process equipment list (heaters, controllers, scales, transformers,
+# anything non-motor that draws power or is panel-fed).
+#
+# Field reference:
+#   tag               # plant tag (e.g. HTR-AC-1, XFMR-MAIN)
+#   description
+#   type              # heater | controller | scale | transformer | other
+#   location_room / location_zone
+#   mfr / model / voltage / phase / kw / amps
+#   source_panel / source_breaker
+#   status            # in_service | out | removed | staying | planned
+#   verified
+#   notes
+items: []

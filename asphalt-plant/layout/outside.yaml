@@ -1,0 +1,6 @@
+# Outside layout — tank farm, scale, loading rack, drum yard, etc.
+name: "Outside layout"
+canvas: { width: 1600, height: 1000, units: "px" }
+background_image: null
+rooms: []
+items: []
