@@ -1,0 +1,305 @@
+name: "MDP-1"
+manufacturer: "Square D"
+model: "TBD"   # cabinet model not visible in photos; main breaker model below
+voltage: "480/277V"
+phase: 3
+wire: 4   # system is 4-wire (480/277 wye); main breaker itself is 3-wire / 3-pole
+mains_amps: 800
+fed_from: "TBD"
+location_room: "TBD"
+location_zone: "TBD"
+verified: true   # cover label + main breaker nameplate confirmed by photo
+notes: |
+  Cover label reads "MDP-1  277/480 VOLT".
+  Main breaker nameplate (Square D HCW): cat HCW1F05435-1B, 800 A, 480 V,
+  3 PH, WIRE = 3 (3-pole device; panel system is 4-wire because it supplies
+  277 V phase-to-neutral loads).
+  Panel has TWO label sets: older engraved black nameplates (e.g. SOAP PUMP
+  #1, TANK #3 HEAT, AC PUMP, MILL #2 AIR COMP., EPR-1) and newer orange
+  labels with -P# suffixes (e.g. SOAP PUMP 1 - P7, RACK 1 PUMP - P3,
+  PRODUCTION PUMP - P2, EPR-1 PUMP - P11). Both kept in breaker notes.
+  Three orange labels not yet tied to a position: PRODUCTION PUMP - P2,
+  MILL/M11 AIR COMPRESSOR (out of service), EMULSIFIER PUMP - P6 (no
+  breaker / blank per field check).
+
+# Position numbering follows the handwritten schedule:
+# odd column on the left (1,3,5,...,21), even column on the right (2,4,...,22).
+# Multi-pole breakers are recorded at the position the user wrote and the
+# `poles` field captures the pole count. Verified-by-photo entries note the
+# breaker catalog number.
+breakers:
+  - position: "1"
+    poles: 3
+    trip_amps: 150
+    frame: "HJA36150"
+    model: "Square D PowerPact HJ 150"
+    conductor:
+    load_served: "SP-1 & SP-2"
+    status: active
+    verified: true
+    notes: "engraved label SP-1 & SP-2; PowerPact HJA36150 confirmed by photo"
+
+  - position: "3"
+    poles:                 # TBD — Tank 11 Agitator, pole count not confirmed
+    trip_amps: 40
+    frame:
+    model:
+    conductor:
+    load_served: "TANK 11 AGITATOR"
+    status: active
+    verified: false
+    notes: "orange label TANK 11 AGITATOR; trip 40 A per handwritten schedule; pole count not yet verified"
+
+  - position: "5"
+    poles:
+    trip_amps: 40
+    frame:
+    model:
+    conductor:
+    load_served: "SOAP PUMP 1 (P7)"
+    status: active
+    verified: false
+    notes: "orange label SOAP PUMP 1 - P7; engraved SOAP PUMP #1; trip 40 A per handwritten"
+
+  - position: "7"
+    poles: 3
+    trip_amps: 100
+    frame: "HJA36100"
+    model: "Square D PowerPact HJ 150"
+    conductor:
+    load_served: "TANK #3 HEAT"
+    status: active
+    verified: true
+    notes: "engraved label TANK #3 HEAT; PowerPact HJA36100 confirmed by photo"
+
+  - position: "9"
+    poles: 1
+    trip_amps: 20
+    frame:
+    model: "Square D"
+    conductor:
+    load_served: "SOAP PUMP #2 (P8)"
+    status: active
+    verified: true
+    notes: "engraved label SOAP PUMP #2; orange label SOAP PUMP 2 - P8; close-up photo shows single-pole 20 A handle"
+
+  - position: "11"
+    poles:
+    trip_amps:
+    frame:
+    model:
+    conductor:
+    load_served: ""
+    status: removed
+    verified: false
+    notes: "marked removed / not in use; handwritten note '15K' meaning unclear (per user, not in use)"
+
+  - position: "13"
+    poles:                 # likely 3-pole (70 A pump load) but not confirmed
+    trip_amps: 70
+    frame:
+    model:
+    conductor:
+    load_served: "RACK 1 LOAD PUMP (P3)"
+    status: active
+    verified: false
+    notes: "orange label RACK 1 PUMP - P3; engraved LOAD PUMP; 70 A per handwritten; FA34070 photo on file but position not yet pinned"
+
+  - position: "15"
+    poles:
+    trip_amps: 70          # frame size from handwritten; load below was 50 A
+    frame:
+    model:
+    conductor:
+    load_served: ""
+    status: removed
+    verified: false
+    notes: "removed; handwritten notes 'AC pump 50 A' as the prior load on this position"
+
+  - position: "17"
+    poles:
+    trip_amps: 70
+    frame:
+    model:
+    conductor:
+    load_served: ""
+    status: removed
+    verified: false
+    notes: "removed per handwritten schedule"
+
+  - position: "19"
+    poles:
+    trip_amps:
+    frame:
+    model:
+    conductor:
+    load_served: ""
+    status: spare
+    verified: false
+    notes: "blank per handwritten schedule"
+
+  - position: "21"
+    poles:
+    trip_amps: 30
+    frame:
+    model:
+    conductor:
+    load_served: "EPR-1 (P11)"
+    status: removed
+    verified: false
+    notes: "engraved label EPR-1; orange label EPR-1 PUMP - P11; X'd out on handwritten schedule = removed"
+
+  - position: "2"
+    poles:
+    trip_amps: 50
+    frame:
+    model:
+    conductor:
+    load_served: ""
+    status: removed
+    verified: false
+    notes: "removed per handwritten schedule (50 A frame size noted)"
+
+  - position: "4"
+    poles: 3
+    trip_amps: 50
+    frame: "FA34050"
+    model: "Square D FA, series 2"
+    conductor:
+    load_served: "RACK 2 PUMP (P4)"
+    status: active
+    verified: true
+    notes: "orange label RACK 2 PUMP - P4; FA34050 50 A 3-pole confirmed by photo"
+
+  - position: "6"
+    poles:
+    trip_amps:
+    frame:
+    model:
+    conductor:
+    load_served: ""
+    status: spare
+    verified: false
+    notes: "blank per user"
+
+  - position: "8"
+    poles:
+    trip_amps:
+    frame:
+    model:
+    conductor:
+    load_served: ""
+    status: spare
+    verified: false
+    notes: "blank"
+
+  - position: "10"
+    poles:
+    trip_amps:
+    frame:
+    model:
+    conductor:
+    load_served: ""
+    status: spare
+    verified: false
+    notes: "blank"
+
+  - position: "12"
+    poles:
+    trip_amps:
+    frame:
+    model:
+    conductor:
+    load_served: ""
+    status: spare
+    verified: false
+    notes: "blank"
+
+  - position: "14"
+    poles:
+    trip_amps:
+    frame:
+    model:
+    conductor:
+    load_served: ""
+    status: spare
+    verified: false
+    notes: "blank"
+
+  - position: "16"
+    poles:
+    trip_amps:
+    frame:
+    model:
+    conductor:
+    load_served: ""
+    status: spare
+    verified: false
+    notes: "blank"
+
+  - position: "18"
+    poles:
+    trip_amps:
+    frame:
+    model:
+    conductor:
+    load_served: "DIESEL PUMP #2 (was)"
+    status: removed
+    verified: false
+    notes: "engraved label '#2 DIESEL PUMP'; removed per handwritten"
+
+  - position: "20"
+    poles:
+    trip_amps:
+    frame:
+    model:
+    conductor:
+    load_served: ""
+    status: spare
+    verified: false
+    notes: "blank"
+
+  - position: "22"
+    poles:
+    trip_amps: 60
+    frame:
+    model:
+    conductor:
+    load_served: "UNLOADING PUMP 1 (was, P1)"
+    status: removed
+    verified: false
+    notes: "orange label UNLOADING PUMP - P1; engraved UNLOADING PUMP; 60 A frame; removed per handwritten"
+
+  # --- Orange-label loads not yet pinned to a position ---
+  - position: "TBD-PRODUCTION-PUMP-P2"
+    poles:
+    trip_amps:
+    frame:
+    model:
+    conductor:
+    load_served: "PRODUCTION PUMP (P2)"
+    status: active
+    verified: false
+    notes: "orange label PRODUCTION PUMP - P2 on panel door; position and trip TBD"
+
+  - position: "TBD-MILL-AIR-COMP"
+    poles:
+    trip_amps:
+    frame:
+    model:
+    conductor:
+    load_served: "MILL #2 AIR COMPRESSOR (M11)"
+    status: out
+    verified: false
+    notes: "orange label MILL - M11 AIR COMPRESSOR; engraved MILL #2 AIR COMP.; user reports not in use; position TBD"
+
+  - position: "TBD-EMULSIFIER-P6"
+    poles:
+    trip_amps:
+    frame:
+    model:
+    conductor:
+    load_served: "EMULSIFIER PUMP (P6)"
+    status: removed
+    verified: false
+    notes: "orange label EMULSIFIER PUMP - P6; user reports BLANK at panel (no breaker); position TBD"
