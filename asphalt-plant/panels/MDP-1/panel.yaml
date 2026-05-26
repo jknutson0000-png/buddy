@@ -3,17 +3,20 @@ manufacturer: "Square D"
 model: "TBD"   # cabinet model not visible in photos; main breaker model below
 voltage: "480/277V"
 phase: 3
-wire: 4   # system is 4-wire (480/277 wye); main breaker itself is 3-wire / 3-pole
+wire:    # TBD — cover label "277/480 V" implies 4-wire wye but neutral bar not yet field-confirmed
 mains_amps: 800
 fed_from: "TBD"
 location_room: "TBD"
 location_zone: "TBD"
-verified: true   # cover label + main breaker nameplate confirmed by photo
+verified: true   # panel exists, cover label + main breaker nameplate confirmed by photo
 notes: |
   Cover label reads "MDP-1  277/480 VOLT".
-  Main breaker nameplate (Square D HCW): cat HCW1F05435-1B, 800 A, 480 V,
-  3 PH, WIRE = 3 (3-pole device; panel system is 4-wire because it supplies
-  277 V phase-to-neutral loads).
+  Main breaker nameplate (Square D HCW): cat HCW1F05435-1B (cat # read
+  from photo; not yet datasheet-confirmed), 800 A, 480 V, 3 PH, WIRE = 3
+  (per nameplate). My earlier note that "WIRE = 3 means 3 conductors
+  through the breaker and the system is 4-wire" was an INTERPRETATION,
+  not verified. Field-verify the system wire count by opening the cabinet
+  and checking for a neutral bar.
   Panel has TWO label sets: older engraved black nameplates (e.g. SOAP PUMP
   #1, TANK #3 HEAT, AC PUMP, MILL #2 AIR COMP., EPR-1) and newer orange
   labels with -P# suffixes (e.g. SOAP PUMP 1 - P7, RACK 1 PUMP - P3,

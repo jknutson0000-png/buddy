@@ -4,7 +4,7 @@ _26 item(s) need data or verification._
 
 | Scope | Tag/Panel | Detail | Missing fields | Flag | Source file |
 |---|---|---|---|---|---|
-| panel | MDP-1 | panel-level | model, fed_from, location_room, location_zone | TBD | panels/MDP-1/panel.yaml |
+| panel | MDP-1 | panel-level | model, wire, fed_from, location_room, location_zone | TBD | panels/MDP-1/panel.yaml |
 | breaker | MDP-1 | pos 1 (SP-1 & SP-2) | conductor | TBD | panels/MDP-1/panel.yaml |
 | breaker | MDP-1 | pos 3 (TANK 11 AGITATOR) | poles, frame, model, conductor | ASSUMED | panels/MDP-1/panel.yaml |
 | breaker | MDP-1 | pos 5 (SOAP PUMP 1 (P7)) | poles, frame, model, conductor | ASSUMED | panels/MDP-1/panel.yaml |

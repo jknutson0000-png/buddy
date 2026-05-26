@@ -7,7 +7,7 @@
 - **Model:** TBD
 - **Voltage:** 480/277V
 - **Phase:** 3
-- **Wire:** 4
+- **Wire:** TBD
 - **Mains rating (A):** 800
 - **Fed from:** TBD
 - **Verified:** VERIFIED
@@ -20,9 +20,12 @@
 ### Notes
 
 - **Notes:** Cover label reads "MDP-1  277/480 VOLT".
-Main breaker nameplate (Square D HCW): cat HCW1F05435-1B, 800 A, 480 V,
-3 PH, WIRE = 3 (3-pole device; panel system is 4-wire because it supplies
-277 V phase-to-neutral loads).
+Main breaker nameplate (Square D HCW): cat HCW1F05435-1B (cat # read
+from photo; not yet datasheet-confirmed), 800 A, 480 V, 3 PH, WIRE = 3
+(per nameplate). My earlier note that "WIRE = 3 means 3 conductors
+through the breaker and the system is 4-wire" was an INTERPRETATION,
+not verified. Field-verify the system wire count by opening the cabinet
+and checking for a neutral bar.
 Panel has TWO label sets: older engraved black nameplates (e.g. SOAP PUMP
 #1, TANK #3 HEAT, AC PUMP, MILL #2 AIR COMP., EPR-1) and newer orange
 labels with -P# suffixes (e.g. SOAP PUMP 1 - P7, RACK 1 PUMP - P3,
