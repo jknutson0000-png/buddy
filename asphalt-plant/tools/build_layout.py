@@ -97,7 +97,8 @@ def render_svg(data: dict) -> str:
 
     for room in data.get("rooms") or []:
         label = escape(str(room.get("label", room.get("id", ""))))
-        if room.get("shape") == "poly":
+        shape = room.get("shape")
+        if shape == "poly":
             pts = " ".join(f"{p[0]},{p[1]}" for p in (room.get("points") or []))
             parts.append(f'<polygon class="room" points="{pts}"/>')
             xs = [p[0] for p in room.get("points") or []]
@@ -105,6 +106,11 @@ def render_svg(data: dict) -> str:
             cx = sum(xs) / len(xs) if xs else 0
             cy = sum(ys) / len(ys) if ys else 0
             parts.append(f'<text x="{cx}" y="{cy}" text-anchor="middle" class="room-label">{label}</text>')
+        elif shape == "circle":
+            cx, cy = room.get("cx", 0), room.get("cy", 0)
+            r = room.get("r", 50)
+            parts.append(f'<circle class="room" cx="{cx}" cy="{cy}" r="{r}"/>')
+            parts.append(f'<text x="{cx}" y="{cy + 4}" text-anchor="middle" class="room-label">{label}</text>')
         else:
             x, y = room.get("x", 0), room.get("y", 0)
             rw, rh = room.get("w", 100), room.get("h", 100)

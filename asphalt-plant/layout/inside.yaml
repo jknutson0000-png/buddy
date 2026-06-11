@@ -1,9 +1,105 @@
-# Inside layout — office, lab, break room, soap pump room, etc.
-# Rooms can be `shape: rect` (x/y/w/h) or `shape: poly` (points list).
-# Items are placed by x,y on the canvas and reference equipment / panel
-# tags so the legend stays synced with equipment.yaml + panels/.
+# Inside layout — drawn from user's hand sketch (notebook page).
+# Approximate proportions, not to scale. Outer rectangle is the building.
+# Vats are drawn as circles per user note. Supermill and silo are drawn
+# as labeled boxes. Two wall-mounted panels (NQOD 208/120 and MDP-1 480)
+# live on the wall between BATH and the main area.
+#
+# Anything called out as "TBD" here is intentional — confirm in field
+# and update.
+
 name: "Inside layout"
-canvas: { width: 1400, height: 900, units: "px" }
+canvas: { width: 900, height: 1400, units: "px" }
 background_image: null
-rooms: []
-items: []
+
+rooms:
+  # building outer wall
+  - id: building
+    label: ""
+    shape: rect
+    x: 80
+    y: 80
+    w: 740
+    h: 1260
+
+  # top-left small room: lab + scale printer
+  - id: lab_scale_printer
+    label: "Lab + scale printer"
+    shape: rect
+    x: 100
+    y: 100
+    w: 260
+    h: 180
+
+  # top-right room: lab
+  - id: lab
+    label: "LAB"
+    shape: rect
+    x: 380
+    y: 100
+    w: 420
+    h: 180
+
+  # middle-left small room: bath
+  - id: bath
+    label: "BATH"
+    shape: rect
+    x: 100
+    y: 300
+    w: 200
+    h: 140
+
+  # vats (circles)
+  - id: vat_1
+    label: "Vat 1"
+    shape: circle
+    cx: 640
+    cy: 540
+    r: 90
+
+  - id: vat_2
+    label: "Vat 2"
+    shape: circle
+    cx: 640
+    cy: 880
+    r: 90
+
+  - id: vat_3
+    label: "Vat 3"
+    shape: circle
+    cx: 660
+    cy: 1200
+    r: 80
+
+  # supermill (box)
+  - id: supermill
+    label: "Supermill"
+    shape: rect
+    x: 140
+    y: 850
+    w: 240
+    h: 220
+
+  # silo (box)
+  - id: silo
+    label: "Silo"
+    shape: rect
+    x: 380
+    y: 1180
+    w: 180
+    h: 130
+
+items:
+  # wall-mounted panels on the BATH / main-area wall
+  - id: P-NQOD
+    label: "Panel (208/120 — tag TBD)"
+    kind: panel
+    x: 440
+    y: 320
+    ref: { panel: "NQOD" }
+
+  - id: P-MDP1
+    label: "MDP-1 (480/277)"
+    kind: panel
+    x: 700
+    y: 320
+    ref: { panel: "MDP-1" }
