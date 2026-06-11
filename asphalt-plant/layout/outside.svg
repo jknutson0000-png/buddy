@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+<style>
+.room{fill:#FAFAFA;stroke:#333;stroke-width:2}
+.room-label{font:bold 16px sans-serif;fill:#222}
+.item-label{font:11px sans-serif;fill:#111}
+.title{font:bold 22px sans-serif;fill:#111}
+.subtitle{font:12px sans-serif;fill:#555}
+</style>
+<text x="20" y="30" class="title">Outside layout</text>
+<text x="20" y="48" class="subtitle">canvas 1600x1000 px</text>
+<rect x="14" y="820" width="160" height="156" fill="#FFFFFFCC" stroke="#888"/>
+<text x="20" y="834" class="subtitle">Legend</text>
+<circle cx="26" cy="846" r="6" fill="#1F3864" stroke="#000" stroke-width="0.5"/>
+<text x="38" y="850" class="item-label">panel</text>
+<circle cx="26" cy="864" r="6" fill="#C0504D" stroke="#000" stroke-width="0.5"/>
+<text x="38" y="868" class="item-label">motor</text>
+<circle cx="26" cy="882" r="6" fill="#9B59B6" stroke="#000" stroke-width="0.5"/>
+<text x="38" y="886" class="item-label">drive</text>
+<circle cx="26" cy="900" r="6" fill="#2E7D32" stroke="#000" stroke-width="0.5"/>
+<text x="38" y="904" class="item-label">process</text>
+<circle cx="26" cy="918" r="6" fill="#F39C12" stroke="#000" stroke-width="0.5"/>
+<text x="38" y="922" class="item-label">transformer</text>
+<circle cx="26" cy="936" r="6" fill="#16A085" stroke="#000" stroke-width="0.5"/>
+<text x="38" y="940" class="item-label">scale</text>
+<circle cx="26" cy="954" r="6" fill="#7F8C8D" stroke="#000" stroke-width="0.5"/>
+<text x="38" y="958" class="item-label">controller</text>
+<circle cx="26" cy="972" r="6" fill="#444444" stroke="#000" stroke-width="0.5"/>
+<text x="38" y="976" class="item-label">other</text>
+</svg>
