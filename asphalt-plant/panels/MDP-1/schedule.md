@@ -42,7 +42,7 @@ breaker / blank per field check).
 | 3 | TBD | 40 | TBD | TBD | TANK 11 AGITATOR | active | ASSUMED | orange label TANK 11 AGITATOR; trip 40 A per handwritten schedule; pole count not yet verified |
 | 5 | TBD | 40 | TBD | TBD | SOAP PUMP 1 (P7) | active | ASSUMED | orange label SOAP PUMP 1 - P7; engraved SOAP PUMP #1; trip 40 A per handwritten |
 | 7 | 3 | 100 | HJA36100 / Square D PowerPact HJ 150 | TBD | TANK #3 HEAT | active | VERIFIED | engraved label TANK #3 HEAT; PowerPact HJA36100 confirmed by photo |
-| 9 | 1 | 20 | Square D | TBD | SOAP PUMP #2 (P8) | active | VERIFIED | engraved label SOAP PUMP #2; orange label SOAP PUMP 2 - P8; close-up photo shows single-pole 20 A handle |
+| 9 | 1 | 20 | Square D | TBD | SOAP PUMP #2 (P-number TBD) | active | VERIFIED | engraved label SOAP PUMP #2; orange label SOAP PUMP 2 - P? (P-number digit not legible in photo — I previously wrote P8 without confirming it; verify in field); close-up photo shows single-pole 20 A handle. 20 A trip confirmed by user. |
 | 11 | TBD | TBD | TBD | TBD | TBD | removed | ASSUMED | marked removed / not in use; handwritten note '15K' meaning unclear (per user, not in use) |
 | 13 | TBD | 70 | TBD | TBD | RACK 1 LOAD PUMP (P3) | active | ASSUMED | orange label RACK 1 PUMP - P3; engraved LOAD PUMP; 70 A per handwritten; FA34070 photo on file but position not yet pinned |
 | 15 | TBD | 70 | TBD | TBD | TBD | removed | ASSUMED | removed; handwritten notes 'AC pump 50 A' as the prior load on this position |
@@ -57,7 +57,7 @@ breaker / blank per field check).
 | 12 | TBD | TBD | TBD | TBD | TBD | spare | ASSUMED | blank |
 | 14 | TBD | TBD | TBD | TBD | TBD | spare | ASSUMED | blank |
 | 16 | TBD | TBD | TBD | TBD | TBD | spare | ASSUMED | blank |
-| 18 | TBD | TBD | TBD | TBD | DIESEL PUMP #2 (was) | removed | ASSUMED | engraved label '#2 DIESEL PUMP'; removed per handwritten |
+| 18 | TBD | TBD | TBD | TBD | DIESEL PUMP #2 (was, P5) | removed | ASSUMED | engraved label '#2 DIESEL PUMP'; orange label DIESEL PUMP - P5 nearby (pairing with this position assumed, not confirmed); removed per handwritten |
 | 20 | TBD | TBD | TBD | TBD | TBD | spare | ASSUMED | blank |
 | 22 | TBD | 60 | TBD | TBD | UNLOADING PUMP 1 (was, P1) | removed | ASSUMED | orange label UNLOADING PUMP - P1; engraved UNLOADING PUMP; 60 A frame; removed per handwritten |
 | TBD-PRODUCTION-PUMP-P2 | TBD | TBD | TBD | TBD | PRODUCTION PUMP (P2) | active | ASSUMED | orange label PRODUCTION PUMP - P2 on panel door; position and trip TBD |

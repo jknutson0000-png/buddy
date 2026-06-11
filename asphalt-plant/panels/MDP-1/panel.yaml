@@ -81,10 +81,10 @@ breakers:
     frame:
     model: "Square D"
     conductor:
-    load_served: "SOAP PUMP #2 (P8)"
+    load_served: "SOAP PUMP #2 (P-number TBD)"
     status: active
     verified: true
-    notes: "engraved label SOAP PUMP #2; orange label SOAP PUMP 2 - P8; close-up photo shows single-pole 20 A handle"
+    notes: "engraved label SOAP PUMP #2; orange label SOAP PUMP 2 - P? (P-number digit not legible in photo — I previously wrote P8 without confirming it; verify in field); close-up photo shows single-pole 20 A handle. 20 A trip confirmed by user."
 
   - position: "11"
     poles:
@@ -246,10 +246,10 @@ breakers:
     frame:
     model:
     conductor:
-    load_served: "DIESEL PUMP #2 (was)"
+    load_served: "DIESEL PUMP #2 (was, P5)"
     status: removed
     verified: false
-    notes: "engraved label '#2 DIESEL PUMP'; removed per handwritten"
+    notes: "engraved label '#2 DIESEL PUMP'; orange label DIESEL PUMP - P5 nearby (pairing with this position assumed, not confirmed); removed per handwritten"
 
   - position: "20"
     poles:

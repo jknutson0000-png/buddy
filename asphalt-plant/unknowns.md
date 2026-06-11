@@ -9,7 +9,7 @@ _26 item(s) need data or verification._
 | breaker | MDP-1 | pos 3 (TANK 11 AGITATOR) | poles, frame, model, conductor | ASSUMED | panels/MDP-1/panel.yaml |
 | breaker | MDP-1 | pos 5 (SOAP PUMP 1 (P7)) | poles, frame, model, conductor | ASSUMED | panels/MDP-1/panel.yaml |
 | breaker | MDP-1 | pos 7 (TANK #3 HEAT) | conductor | TBD | panels/MDP-1/panel.yaml |
-| breaker | MDP-1 | pos 9 (SOAP PUMP #2 (P8)) | frame, conductor | TBD | panels/MDP-1/panel.yaml |
+| breaker | MDP-1 | pos 9 (SOAP PUMP #2 (P-number TBD)) | frame, conductor | TBD | panels/MDP-1/panel.yaml |
 | breaker | MDP-1 | pos 11 () | poles, trip_amps, frame, model, conductor, load_served | ASSUMED | panels/MDP-1/panel.yaml |
 | breaker | MDP-1 | pos 13 (RACK 1 LOAD PUMP (P3)) | poles, frame, model, conductor | ASSUMED | panels/MDP-1/panel.yaml |
 | breaker | MDP-1 | pos 15 () | poles, frame, model, conductor, load_served | ASSUMED | panels/MDP-1/panel.yaml |
@@ -24,7 +24,7 @@ _26 item(s) need data or verification._
 | breaker | MDP-1 | pos 12 () | poles, trip_amps, frame, model, conductor, load_served | ASSUMED | panels/MDP-1/panel.yaml |
 | breaker | MDP-1 | pos 14 () | poles, trip_amps, frame, model, conductor, load_served | ASSUMED | panels/MDP-1/panel.yaml |
 | breaker | MDP-1 | pos 16 () | poles, trip_amps, frame, model, conductor, load_served | ASSUMED | panels/MDP-1/panel.yaml |
-| breaker | MDP-1 | pos 18 (DIESEL PUMP #2 (was)) | poles, trip_amps, frame, model, conductor | ASSUMED | panels/MDP-1/panel.yaml |
+| breaker | MDP-1 | pos 18 (DIESEL PUMP #2 (was, P5)) | poles, trip_amps, frame, model, conductor | ASSUMED | panels/MDP-1/panel.yaml |
 | breaker | MDP-1 | pos 20 () | poles, trip_amps, frame, model, conductor, load_served | ASSUMED | panels/MDP-1/panel.yaml |
 | breaker | MDP-1 | pos 22 (UNLOADING PUMP 1 (was, P1)) | poles, frame, model, conductor | ASSUMED | panels/MDP-1/panel.yaml |
 | breaker | MDP-1 | pos TBD-PRODUCTION-PUMP-P2 (PRODUCTION PUMP (P2)) | poles, trip_amps, frame, model, conductor | ASSUMED | panels/MDP-1/panel.yaml |
