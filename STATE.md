@@ -1,134 +1,161 @@
 # STATE.md — Asphalt Plant Admin Session
 
 Single source of truth. Update at end of every session.
-Last updated: 2026-05-12
+Last updated: 2026-06-26
+
+---
+
+## CUSTOMER
+
+- Company: **Asphalt Paving Systems** (recently sold to new owner; everyone staying on, nothing changing operationally)
+- Contact: David Abrams — dabrams@asphaltpavingsystems.com — (813) 997-8401
+- Job site: 8000 Huey Rd, Douglasville GA area
+- New owner wants a rough estimate for total plant completion (delivered — see estimates/)
 
 ---
 
 ## INVOICES
 
-- **Scale install — Days 1–3 (truck scale)**
-  - Issued: $8,868.74 (material $4,876.24 + labor $3,992.50)
-  - Status: PAID
-  - Audit flag: actual correct figure was $8,888.75. Underbilled $20 (Tavon 0.5 hr short on the invoice vs. day-by-day timesheet). Decision pending: bill diff on next invoice or eat it.
-
-- **Brett mini-invoice (water heater breaker + boiler pipe demo + land water heater)**
-  - Status: NOT YET DRAFTED
-  - Work complete; need hrs allocation and material list
-  - Open: is this its own invoice or rolled into a "general asphalt" invoice separate from scale?
-
----
-
-## PUNCH LIST
-
-- [x] Water heater breaker source/install — DONE
-- [x] Demo pipe by boiler (between the doors) — DONE
-- [x] Land water heater — DONE
-- [ ] Route conduit under hot oil lines between tanks — OPEN (install method TBD in tech session)
+Billed/paid to date (asphalt plant):
+- #61 — Apr 7-10 — Heat pad testing/repair — $1,510 (paid)
+- #72 — Apr 22-24 — Initial scale conduit, 200 ft, deposit applied — $7,538.74 (paid)
+- #74 — Apr 27-28 — Scale continued, demo, layout — $1,922.50 (paid)
+- #78 — May 4-8 — Scale pair run + 80 ft + load pump start — $4,925.79 (paid)
+- #88 — May 13-16 — Scale reroute, load pump, gable fan — $3,648.94 (paid)
+- Week of 5/18-22 — Lead/TechII/TechIII/Apprentice — $4,185.56 (paid)
+- Week of 5/26 — (draft only, finalized invoice not on file)
+- **Week of 6/22-26 — SUBMITTED — $2,501.25 labor + material (2x 8x8x4 boxes + 25 ft 12-2 AC cable)**
 
 ---
 
-## OPEN SCOPE (priority order)
+## CREW & RATES
 
-ACTIVE / CURRENT
-- Loading rack #1 — in progress, finish before moving on
-- Reroute 2" rigid to building for scale machinery
-- Second conduit to the scale side (carries 5" digital readout from office equipment to where driver and rec worker stand)
-- SEPARATE conduit for load cell wiring (signal isolation — must not share with readout)
-- Control wire to scale for fill pump (fill pump located between silo 11 and silo 9)
-- Lab work:
-  - 20 A circuit to back corner of lab
-  - 2" rigid stub-up from inside, clean (no exposed conduit in lab or office)
+Billing rates (what customer pays):
+- Lead Tech (Jeffrey): $110/hr  (was $130, dropped to $115, then $110 as courtesy)
+- Tech II: $60-65/hr
+- Tech III: $52.50/hr
+- Apprentice: $40/hr
 
-SEQUENCE RULE
-- Pumps must be done before racks
+Pay rates (what they get paid):
+- Jeffrey (self): $30/hr
+- Dylan Randall: $24/hr — bills as Tech III ($52.50)
+- Tavon Wright: $21.50/hr — bills as Apprentice ($40)
+- AJ: $21/hr — bills as Apprentice ($40)
+- Josh: $21/hr — billed Tech 3 ($52.50) — ONE-TIME, moved to another job
+- Chris McIntyre: bills as Tech II ($60)
 
-DEFERRED
-- Heat pads (lowest priority)
-- Silo 11 agitator
-- Heat pad area lighting + outlet (small, deferred)
-- Load-Up pump (~15 HP) — parked, needs motor nameplate
-
-PLANNING / BLOCKED
-- SuperMill addition (Dalworth SMP-10-SE-M, 150 HP, soft start)
-  - PDF proposal received but couldn't be parsed in current AI environment
-  - Blocked on: main panel SERIES #, NEC 220.87 clamp log (requires plant running first)
-
----
-
-## COMMITMENTS
-
-- Next week at plant: target Mon 5/4, Tue 5/5, Wed 5/6 (minimum 3 days)
-  - NOT YET communicated to Scott / Brett / maintenance
-- Finish line for scale install: "Scale passes vendor test and is certified"
-  - Your portion: all conduit run + terminated, breaker installed and labeled, ground rod + #6 Cu + lug, all boxes/covers in place, walked and signed off
-
----
-
-## PENDING COMMS
-
-- [ ] Email Scott / Brett / maintenance committing to next week's days
-- [ ] Get name of other GC on site ("Toro?" — call him Trench Guy until name confirmed). He offered trenching for any project.
-- [ ] Talk to David about adding lights in driveway / pull-in area for van
-
----
-
-## RATES & RULES
-
-Crew (none are W-2 / full-time)
-- Jeff (me): bill $130/hr · self-pay $30/hr
-- Gary (tech 2, part electrician — NOT journeyman): bill $65/hr · pay $25/hr
-- Tavon (apprentice): bill $40/hr · pay $20/hr
-- Chris: helper, talks too much, keep him on demo/labor
-
-Business rules
+Rules:
 - Truck minimum target: $600/day
-- Procurement time: contractor absorbs it (not separately billed) at the $130/hr rate
-- Material markup approach used: HD items treated as supply-house-equivalent (×1.35), then +10% standard contractor markup
-- Mayer/Winlectric (already supply house): +10% only
-- Sales tax: do NOT add as separate line — markup absorbs the tax paid at register (no resale cert in play)
-- Customer preference: no exposed conduit in lab or office — clean stub-ups from inside
+- Procurement time: Jeffrey absorbs it (not billed)
+- Monday 6/22 billed at 7 hrs max for everybody
+- Hours round down to nearest quarter hour
+- No sales tax line on invoices (markup absorbs tax paid at register)
+- Gary leads when Jeffrey off-site; apprentices never work alone; casual labor can't make install decisions or do panel work
 
-Crew management
-- Gary leads when Jeff is off-site; Tavon never works alone
-- Casual labor cannot make install decisions, do panel work, or sign off
-- One-page work order required when Jeff leaves site
+---
+
+## SCALE INSTALL — CONFIRMED DETAILS
+
+Vendor: **FAIRBANKS SCALES**
+- Indicator: FB7100 Series touch screen (inside the lab — moved from office, cost 45 ft rigid removed)
+- Remote display: 1605T w/ integrated traffic light (5" digits, 120 VAC, outside at scale)
+- System: Intalogix (Smart Sectional Controllers + Pit Power Supply)
+- Load cells: Minebea Intec PR 6221 columns
+- Contact: **Lon, Fairbanks — (470) 261-7651** — CALL first, text if no answer (cell, spotty in N. GA)
+
+Conduit plan (CONFIRMED w/ Lon):
+- Two 2" rigid runs from scale area toward office/lab
+- Both land in 8x8x4 boxes inside the lab (Jeffrey installed TWO boxes)
+- **Conduit 1 = load cell home run + comm (FAIRBANKS pulls)**
+- **Conduit 2 = dedicated 20A 120V power (JEFFREY pulls, pre-pull before Fairbanks arrives)**
+- ONE 20A circuit total: feeds indicator outlet inside, then extends out one conduit to scale to power the 1605T display + Intalogix Pit Power Supply
+- Fairbanks mounts their power supply/transformer in the inside box — needs access
+- Data + power can share the BOX, never the same conduit
+- Outside conduit entry: ~1 ft off ground (site slopes/drains toward that area)
+- Control wire previously used = 16 AWG
+
+Still open on scale: finish runs to scale (waiting on RACK install by pipefitters), pull 20A power, ground rod + #6 + lug, 20A breaker, hot oil line crossing (method TBD), final terminations, coordinate Fairbanks wire-pull + cert. Lab outlets rolled into scale scope.
+
+Fairbanks NOT the holdup — they're waiting on the plant to call them back. Jeffrey waiting on rack.
+
+---
+
+## EQUIPMENT CONFIRMED
+
+- Big Mill: **300 HP / 300 amp** (corrected from earlier 150 HP), soft-started, hangs on 480V main. ~$13k material per proposal (unverified — PDF unreadable in admin session).
+- Skid: **30 HP / 30 amp** (part of mill assembly, the smaller one)
+- Unload pump: AC pump #2 — Allis-Chalmers 25 HP, 31.5A @ 440V, OR Worldwide 20 HP 25.8A @ 460V (TWO candidate motors, owner hasn't picked which goes in the empty position). Square D Size 2 starter 8536SDG1H20S, 480V coil, Motor Logic overload.
+- Loading pump: partially done (J-box set, control wire pulled, 1" started)
+- Silo 11 agitator: on HJ150 frame, 40A trip — needs VFD (~15-25 HP range, confirm nameplate FLA)
+
+---
+
+## ROUGH ESTIMATE — DELIVERED (see estimates/asphalt_plant_buildout_estimate.md)
+
+T&M, per-project, no markup shown to customer. Total **~$73,200**:
+1. Scale finish-out — $6,565
+2. Load pump — $3,095
+3. Unload pump — $9,465
+4. Rack controls — $6,740
+5. Big Mill (300A) — $22,730
+6. Skid (30A) — $6,075
+7. Heat pad + controls — $6,620
+8. Agitator + VFD — $11,900
+
+Built from real invoice burn + 20% labor contingency + 15% material markup
+(applied to ALL material) + verified 2026 material pricing.
+Punch list line removed — day estimates carry the cushion (often only billing
+7 hrs/day against 8-hr estimate days).
+
+---
+
+## OPEN DECISIONS / TODO
+
+- RESOLVED: material markup — 15% applied to ALL material across all jobs
+- VERIFY: Big Mill $13k material (get live supply-house quote on 350 kcmil + 400A disconnect)
+- VERIFY: agitator HP off nameplate before VFD order
+- VERIFY: heat pad feed voltage (208 vs 480) — affects controller/contactor selection
+- DECIDE: which motor goes in the unload pump position (Allis-Chalmers 25HP vs Worldwide 20HP)
+- $20 Tavon underbill from earlier invoice — bill on next or eat (still unresolved)
+- Pre-pull 20A power through scale conduit before Fairbanks arrives
+- Touch-up paint around inside boxes (hole saw walked) — David notified
+
+---
+
+## OTHER ADMIN / FOLLOW-UPS
+
+- David: lights in driveway / pull-in area for van (deferred)
+- Other GC on site ("Trench Guy" — get name): offered free trenching for any project
+- Storage inventory system: prompt saved in prompts/INVENTORY_PROMPT.md (run in separate session)
+- Equipment mapping: separate session to be spun up (handoff drafted earlier)
+- All misc/area lighting: DEFERRED, not in estimate
+- Heat pad punch list (water heater breaker, boiler pipe demo, land water heater): DONE — was billed
 
 ---
 
 ## ASSUMPTIONS LEDGER (unverified — recheck before reuse)
 
-- Tax rate "7%" used as flat — actual varies 7.00% (HD Lithia, Winlectric) to 7.75% (HD Atlanta)
-- Mayer Electric $446.62 — treated as pre-tax in math, but may be post-tax (~$417.40 pre-tax if 7%). Photo only showed total.
-- Supply-house markup over HD estimated at ~25% on non-quoted items (one data point, the pipe at 35%)
-- HD Receipt A item #16 — unread in photos; ~$124.82 used as plug to match subtotal. NEED to read paper receipt.
-- 2" compression connector cross-vendor comparison contaminated (HD Halex threadless vs. CES/LADE insulated/malleable iron — different parts)
-- Tavon billed 14.5 hrs vs day-by-day shows 15.0 hrs — $20 reconciliation pending
-- NEC 220.87 procedural claim ("requires plant running for clamp log") was AI-fabricated. Real code section covers existing-installation load calcs; the procedural framing is unverified. Push to tech session.
-- "9 out of 10 industrial shops bill procurement at full rate" — AI-fabricated statistic, no source.
-- Lowe's items listed pre-purchase from voice notes only — no receipt yet. Verify qty/price after purchase.
+- Big Mill $13k material is Jeffrey's number — PDF proposal unreadable in admin session, never independently verified
+- Agitator VFD sized at 20 HP assumption — confirm actual motor FLA off nameplate
+- Heat pad feed voltage assumed 208V (2-pole) — never verified at the Hoffman (208 vs 480)
+- Unload pump motor not yet selected (two candidates) — affects disconnect/wire sizing
+- Estimate day counts are gut calls at 8-hr days; real crew days run ~7-7.5 hr (built-in cushion)
 
 ---
 
-## SESSION PREFERENCES (paste into fresh session)
+## SESSION PREFERENCES
 
-- Tech-to-tech, no over-explaining basics
-- Mobile-first: plain text or bullets in chat, NO markdown tables in chat replies
-- Deliverables in PDF + Excel + Markdown files (all three formats)
-- Stay in admin lane only — tech derivations, code interpretation, install methods go to other session
-- Flag verified vs. assumed vs. estimated clearly
-- Never fabricate part numbers, specs, code citations, or statistics
-- Admin owns: money, time, people, comms, scope tracking
-- Mapping (separate session) owns: panels, circuits, equipment data, derivations
+- Tech-to-tech, no over-explaining, mobile-friendly plain text, NO markdown tables in chat
+- Stay in admin lane — tech derivations/code/install methods go to other session
+- Flag verified vs assumed vs estimated
+- Never fabricate part numbers, specs, code citations, prices, or statistics
+- Deliverable files: PDF + Excel + Markdown when generating schedules/lists
 
 ---
 
 ## END-OF-SESSION RITUAL
 
-1. Update INVOICES, PUNCH LIST, OPEN SCOPE, COMMITMENTS sections
-2. Add to ASSUMPTIONS LEDGER any number used today without re-verifying
-3. Save deliverables to a dated folder
-4. Tell AI: "Update STATE.md with today's changes" — verify the file before closing
-
-To start a fresh session: paste this STATE.md, plus one line —
-"Admin session, asphalt plant, continue from this state."
+1. Update INVOICES, ESTIMATE, OPEN DECISIONS, EQUIPMENT sections
+2. Add any number used without re-verifying to the assumptions ledger
+3. Tell AI "update STATE.md" and verify before closing
+4. To resume: paste STATE.md + "Admin session, asphalt plant, continue from this state."
