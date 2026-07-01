@@ -109,11 +109,19 @@ Punch list line removed — day estimates carry the cushion (often only billing
 
 ---
 
+## WORK LOG — for invoice Thu/Fri (Fri may be holiday)
+
+- MONDAY: connected the scale J-boxes (tight working on an aisle/lift). Both 2" rigid runs now INTO the building and connected — ready for Fairbanks to hook up.
+- TODAY: installed 2 ground rods, protected with Sch 40 PVC, landed at the disconnects. Installed pull string in both conduit runs as far as possible (rack not in yet).
+- TOMORROW (planned): pull the dedicated 20A; land into the scale J-box on a ground bar (MC down into wall → back of J-box; grounds + EGC from rigid all land on a bonded ground bar per NEC 250.148).
+
 ## PENDING MATERIAL TO BILL (not yet invoiced)
 
 - HD Order WK30706426 — job "asphalt" — ordered 6/30/2026 — **$212.27** ($198.38 + $13.89 tax)
-  - Pump grounding + penetration sealing: (3) 5/8"x8' copper ground rods $87.03, (3) 5/8" bronze rod clamps $13.05, (1) 25ft #6 bare copper $32.00, 1/2" PVC conduit + adapters + elbows + offsets + LB, Dynaflex exterior sealant, Gaps & Cracks foam, spackle/putty knife/wipes
+  - Pump grounding + penetration sealing: 1/2" PVC conduit + adapters + elbows + offsets + LB, (1) 25ft #6 bare copper $32.00, (3) 5/8" bronze rod clamps $13.05, Dynaflex exterior sealant, Gaps & Cracks foam, spackle/putty knife/wipes
+  - NOTE: the (3) copper-clad ground rods ($87.03) on this order were OUT OF STOCK — Jeffrey bought GALVANIZED rods at an electric supply for ~$70 instead. Reconcile: subtract the $87.03 HD rod line if not fulfilled, add the ~$70 electric-supply rod purchase.
   - Apply standard 15% material markup when billed
+- Electric supply — galvanized ground rods (+ misc) — ~$70 — replaces the out-of-stock HD copper-clad rods
 
 ---
 
