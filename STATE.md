@@ -109,6 +109,14 @@ Punch list line removed — day estimates carry the cushion (often only billing
 
 ---
 
+## PENDING MATERIAL TO BILL (not yet invoiced)
+
+- HD Order WK30706426 — job "asphalt" — ordered 6/30/2026 — **$212.27** ($198.38 + $13.89 tax)
+  - Pump grounding + penetration sealing: (3) 5/8"x8' copper ground rods $87.03, (3) 5/8" bronze rod clamps $13.05, (1) 25ft #6 bare copper $32.00, 1/2" PVC conduit + adapters + elbows + offsets + LB, Dynaflex exterior sealant, Gaps & Cracks foam, spackle/putty knife/wipes
+  - Apply standard 15% material markup when billed
+
+---
+
 ## OPEN DECISIONS / TODO
 
 - RESOLVED: material markup — 15% applied to ALL material across all jobs
