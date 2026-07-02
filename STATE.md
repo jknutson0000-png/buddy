@@ -80,6 +80,24 @@ Fairbanks NOT the holdup — they're waiting on the plant to call them back. Jef
 
 ---
 
+## PANEL / MAPPING DATA — LIVES ON THE MAPPING BRANCH
+
+Full panel schedules, equipment list, plant layouts, and unknowns list are on
+repo branch **claude/asphalt-plant-electrical-map-JqaW7** under `asphalt-plant/`
+(MDP-1 schedule in panels/MDP-1/, 26-item unknowns list, layouts, equipment).
+CHECK THAT BRANCH before asking for panel data — do not re-request from user.
+
+Key cross-references (from MDP-1 schedule):
+- Pos 3 — Tank 11 Agitator — 40A (matches field check 7/1)
+- Pos 13 — Rack 1 Load Pump — 70A (likely the loading pump feed)
+- Pos 22 — Unloading Pump 1 (P1) — 60A frame — was "removed," returning to
+  ACTIVE for new unload pump (feeds the Size 2 starter, 25HP max)
+- Pos 1 — SP-1 & SP-2 — HJA36150 150A (also noted as transformer primary in
+  old handoff — RECONCILE: schedule says SP-1/SP-2)
+- MDP-1 3-wire vs 4-wire (neutral bar) still unverified
+
+---
+
 ## EQUIPMENT CONFIRMED
 
 - Big Mill: **300 HP / 300 amp** (corrected from earlier 150 HP), soft-started, hangs on 480V main. ~$13k material per proposal (unverified — PDF unreadable in admin session).
