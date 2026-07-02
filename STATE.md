@@ -133,7 +133,8 @@ Punch list line removed — day estimates carry the cushion (often only billing
 
 - MONDAY: connected the scale J-boxes (tight working on an aisle/lift). Both 2" rigid runs now INTO the building and connected — ready for Fairbanks to hook up.
 - TODAY: installed 2 ground rods, protected with Sch 40 PVC, landed at the disconnects. Installed pull string in both conduit runs as far as possible (rack not in yet).
-- TOMORROW (planned): pull the dedicated 20A; land into the scale J-box on a ground bar (MC down into wall → back of J-box; grounds + EGC from rigid all land on a bonded ground bar per NEC 250.148).
+- TODAY: ran the dedicated 20A from the pull box/tray above the panel as far as possible — waiting on the rack before it can continue to the scale. Also ran fish tape/pull line through multiple additional pipes to set up for future pulls.
+- STILL PENDING: land into the scale J-box on a ground bar (MC down into wall → back of J-box; grounds + EGC from rigid all land on a bonded ground bar per NEC 250.148).
 
 ## PENDING MATERIAL TO BILL (not yet invoiced)
 
