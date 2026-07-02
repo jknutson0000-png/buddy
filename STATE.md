@@ -86,7 +86,9 @@ Fairbanks NOT the holdup — they're waiting on the plant to call them back. Jef
 - Skid: **30 HP / 30 amp** (part of mill assembly, the smaller one)
 - Unload pump: AC pump #2 — Allis-Chalmers 25 HP, 31.5A @ 440V, OR Worldwide 20 HP 25.8A @ 460V (TWO candidate motors, owner hasn't picked which goes in the empty position). Square D Size 2 starter 8536SDG1H20S, 480V coil, Motor Logic overload.
 - Loading pump: partially done (J-box set, control wire pulled, 1" started)
-- Silo 11 agitator: on HJ150 frame, 40A trip — needs VFD (~15-25 HP range, confirm nameplate FLA)
+- Silo/Tank 11 agitator: FULLY DOCUMENTED (photos 7/1) — Baldor CEM2333T, 15 HP, 230/460V, 37/18.5A, 1765 RPM, 254TC, SF 1.15, TEFC + Falk Ultramite 09UCFN2A20A8E gearbox (4.5:1) + EXISTING TECO N3-415-C VFD (15HP/11kW, 380-480V, 31A, IP20/NEMA1). If TECO drive is functional, no new VFD needed — estimate line 8 has cushion (budgeted $4k for a drive; 15HP replacement is ~$1.1-2.8k if needed).
+- Heat pads: CONFIRMED 208V (per Jeffrey — stop re-asking). Watlow EZ-ZONE ST controllers scope stands.
+- Unload pump: NOT INSTALLED YET — no route to trace until it's set. Parked until equipment lands.
 
 ---
 
