@@ -100,8 +100,10 @@ Key cross-references (from MDP-1 schedule):
 
 ## EQUIPMENT CONFIRMED
 
-- Big Mill: **300 HP / 300 amp** (corrected from earlier 150 HP), soft-started, hangs on 480V main. ~$13k material per proposal (unverified — PDF unreadable in admin session).
-- Skid: **30 HP / 30 amp** (part of mill assembly, the smaller one)
+- Big Mill: **Dalworth SMP-10-SE-M — 150 HP motor, 220 A FLA, 300 A SOFT START panel, 480V 3ø** (VERIFIED from Dalworth drawing in Google Drive — the "300" is the soft-start panel amps, NOT horsepower). Material ~$9k per 5/22 project notes; full shopping list = supermillshoppinglist.html in Drive / branch claude/supermill-skid. Estimate line ($22,730) is labeled "300 amp" so customer doc is accurate — carries ~$4-5k cushion vs real material.
+- Skid: **Solution Make-Up Skid — 30 A, 480V 3ø** (121"x141" pad, per Dalworth drawing)
+- System: 480V 3-wire DELTA, no neutral (VERIFIED — closes MDP-1 neutral-bar unknown)
+- Billing note: Jeffrey told David 10% on material. Estimate is lump-sum (no markup shown) so no paper conflict — if David asks for material backup, the story is 10%.
 - Unload pump: AC pump #2 — Allis-Chalmers 25 HP, 31.5A @ 440V, OR Worldwide 20 HP 25.8A @ 460V (TWO candidate motors, owner hasn't picked which goes in the empty position). Square D Size 2 starter 8536SDG1H20S, 480V coil, Motor Logic overload.
 - Loading pump: partially done (J-box set, control wire pulled, 1" started)
 - Silo/Tank 11 agitator: FULLY DOCUMENTED (photos 7/1) — Baldor CEM2333T, 15 HP, 230/460V, 37/18.5A, 1765 RPM, 254TC, SF 1.15, TEFC + Falk Ultramite 09UCFN2A20A8E gearbox (4.5:1) + EXISTING TECO N3-415-C VFD (15HP/11kW, 380-480V, 31A, IP20/NEMA1). If TECO drive is functional, no new VFD needed — estimate line 8 has cushion (budgeted $4k for a drive; 15HP replacement is ~$1.1-2.8k if needed).
