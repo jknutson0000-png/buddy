@@ -24,7 +24,9 @@ Billed/paid to date (asphalt plant):
 - #88 — May 13-16 — Scale reroute, load pump, gable fan — $3,648.94 (paid)
 - Week of 5/18-22 — Lead/TechII/TechIII/Apprentice — $4,185.56 (paid)
 - Week of 5/26 — (draft only, finalized invoice not on file)
-- **Week of 6/22-26 — SUBMITTED — $2,501.25 labor + material (2x 8x8x4 boxes + 25 ft 12-2 AC cable)**
+- Week of 6/22-26 — PAID — $2,501.25 labor + material (2x 8x8x4 boxes + 25 ft 12-2 AC cable)
+- **Week of 6/29-7/1 — INVOICED & PAID** — scale boxes Mon, ground rods Tue, 20A pull + fish tape Wed. Hours: Jeffrey 19.25 @ $110, Tavon 17.5 @ $40 (3 days), Max 13.75 @ Tech III $52.50 (2 days). Material: HD $212.27 net of rod swap + galv rods ~$70 + 12 THHN $130 + bonding bridge $22.
+- Max billing tier LOCKED: Tech III $52.50/hr.
 
 ---
 
