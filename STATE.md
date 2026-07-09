@@ -26,6 +26,9 @@ Billed/paid to date (asphalt plant):
 - Week of 5/26 — (draft only, finalized invoice not on file)
 - Week of 6/22-26 — PAID — $2,501.25 labor + material (2x 8x8x4 boxes + 25 ft 12-2 AC cable)
 - **Week of 6/29-7/1 — INVOICED & PAID** — scale boxes Mon, ground rods Tue, 20A pull + fish tape Wed. Hours: Jeffrey 19.25 @ $110, Tavon 17.5 @ $40 (3 days), Max 13.75 @ Tech III $52.50 (2 days). Material: HD $212.27 net of rod swap + galv rods ~$70 + 12 THHN $130 + bonding bridge $22.
+- **Week of 7/6-7/9 (Mon-Thu) — IN PROGRESS** — pulled ground for scale dedicated circuit (scale not yet installed); ran 1" rigid J-box to heat pads; opened heat pads and tested — MULTIPLE TEMP SENSORS FAILING, need replacement (affects heat pad job scope/cost); ran 3/4" rigid for Tank 11 agitator, prepped for power; landed conduit in pull box; staged for rack delivery expected Monday.
+  Hours: Jeffrey 17.75 (Mon 4.5, Tue 4.0 billed/6.0 actual, Wed 6.0, Thu 3.25) @ $110 = $1,952.50. Tavon 13.75 (Mon 4.5, Wed 6.0, Thu 3.25 — NOT on Tuesday) @ $40 = $550.00. Labor total $2,502.50.
+  Material: 1" rigid + fittings + LB + straps + misc pull box hardware, 180 ft #12 THHN green — $ TBD, no receipt yet.
 - Max billing tier LOCKED: Tech III $52.50/hr.
 
 ---
